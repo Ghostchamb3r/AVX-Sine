@@ -9,10 +9,7 @@ gcc -O2 -mavx -mavx2 -shared -o AVXhypersaw.dll AVXhypersaw2.c -DUSE_DOUBLE -I"C
 icx -O2 -mavx -mavx2 -shared -o AVXsine.dll AVXsine.c -DUSE_DOUBLE -I"C:\Program Files\Csound6_x64\include\csound"
 
 */
-/*
-Hermite cubic interpolation reconfigured and implemented from: 
-https://people.sc.fsu.edu/~jburkardt/c_src/hermite_interpolant/hermite_interpolant.c
-*/
+
 
 // DATA
 typedef struct _AVXsine{
